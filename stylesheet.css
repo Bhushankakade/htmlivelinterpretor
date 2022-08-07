@@ -1,0 +1,35 @@
+
+#head{
+    border-style: groove;
+    width: 50%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+}
+
+#Outhead{
+    border-style: groove;
+    margin-left: 54.1%;
+    margin-top: -6.1%; 
+    padding:2%;
+    background-color: gray;
+}
+
+#code{
+    background-color: lightcyan;
+    width: 54.2%;
+    margin-left: 0.4px;
+}
+
+
+ #display{
+    background-color:whitesmoke;
+    border-style:groove;
+    width: 45.4%;
+    height: 90%;
+    float: right;     
+} 

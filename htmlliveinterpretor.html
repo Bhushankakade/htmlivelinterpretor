@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="head">
+        <h2 align="center">Html Interpretor</h2>
+    </div>
+    <div id="Outhead">
+        <h2 align="center">Output :-</h2>
+    </div>
+    <div id="display">
+      
+    </div>
+
+<textarea  id="code" rows="44" cols="110" placeholder="Enter your code here" onkeyup="Output()"></textarea>
+
+    <script>
+
+        function Output() 
+        {
+        htmlot = document.getElementById("display");
+        htmlcode = document.getElementById("code");
+        htmlot.innerHTML = htmlcode.value;
+        }
+        
+        </script>
+</body>
+  
+</html>
